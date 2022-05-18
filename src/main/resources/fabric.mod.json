@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "classiccreepers",
+  "version": "${version}",
+  "accessWidener": "classiccreepers.accesswidener",
+  "name": "Classic Creepers",
+  "description": "Makes Creepers explode on death and attack like zombies like they did in the survival test versions",
+  "authors": [
+    "RTTV"
+  ],
+  "contact": {
+  },
+  "license": "MPL-2.0",
+  "icon": "assets/classiccreepers/icon.png",
+  "environment": "*",
+  "mixins": [
+    "classiccreepers.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "*",
+    "java": ">=17"
+  }
+}
